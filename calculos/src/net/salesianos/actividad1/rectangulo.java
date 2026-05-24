@@ -1,5 +1,5 @@
 package net.salesianos.actividad1;
-public class rectangulo{
+public class rectangulo implements CalculoGeometrico{
 
 
     protected double base;
