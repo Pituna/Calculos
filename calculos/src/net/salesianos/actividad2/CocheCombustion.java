@@ -1,6 +1,6 @@
 package net.salesianos.actividad2;
 
-public class CocheCombustion extends vehiculo {
+public class CocheCombustion extends Vehiculo {
 
     protected boolean motorEncendido;
     protected double litrosCombustible;
