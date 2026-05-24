@@ -1,6 +1,6 @@
 package net.salesianos.actividad2;
 
-public abstract class vehiculo {
+public abstract class Vehiculo {
 
     protected String color;
     protected int numeroPuertas;
@@ -8,7 +8,7 @@ public abstract class vehiculo {
     protected String modelo;
     protected String matricula;
 
-    public vehiculo(String color, int numeroPuertas, int numeroRuedas,
+    public Vehiculo(String color, int numeroPuertas, int numeroRuedas,
                     String modelo, String matricula) {
 
         this.color = color;
